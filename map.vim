@@ -1,7 +1,9 @@
-noremap <leader>w :write<CR>
-noremap <leader>W :SudoWrite<CR>
-noremap <leader>q :quitall<CR>
-noremap <leader>Q :quitall!<CR>
+noremap <leader>w :write<cr>
+noremap <leader>W :SudoWrite<cr>
+noremap <leader>s :saveas 
+noremap <leader>S :wqa<cr>
+noremap <leader>q :quitall<cr>
+noremap <leader>Q :quitall!<cr>
 noremap <leader>e :edit 
 noremap <leader>E :tabedit 
 " https://vi.stackexchange.com/questions/2076/whats-the-difference-between-let-and-set
