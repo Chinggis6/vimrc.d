@@ -1,7 +1,7 @@
 " aur/vim-plug
 call plug#begin('/usr/share/vim/vim80/plugged')
 " :PlugInstall
-source /dbx/pkg/plug.vim
+source ./plugins.vim
 call plug#end()
 
 " for manual installation:
